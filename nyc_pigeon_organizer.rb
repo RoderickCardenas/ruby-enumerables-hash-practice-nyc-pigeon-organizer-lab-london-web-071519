@@ -20,6 +20,5 @@ def nyc_pigeon_organizer(data)
             newData[name][key] << info.to_s
         end
       end
+    newData
     end
-      newData
-  end
