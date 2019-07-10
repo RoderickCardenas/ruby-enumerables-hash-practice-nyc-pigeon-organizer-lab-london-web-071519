@@ -1,12 +1,14 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
   newData = {}
+  newArray = []
+  newArray << data[:color].values
+  binding.pry
 
   #first collect all the names of the pigeons. 
   #make those names the key to your new hash
   #iterate over colors 
   
-  return newData
 end
 
 # list.inject({}) do |r, h| 
