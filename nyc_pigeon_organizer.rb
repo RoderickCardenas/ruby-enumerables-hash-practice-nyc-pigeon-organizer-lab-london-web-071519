@@ -2,7 +2,8 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   newData = {}
   data.each do |key, values|
-    values.values[0]#value.values pulls array of the names
+    newData[values.values[0][0]] = {}
+    #value.values pulls array of the names
     binding.pry
   end
 end
