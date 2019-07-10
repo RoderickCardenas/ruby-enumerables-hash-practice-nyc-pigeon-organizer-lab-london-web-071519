@@ -42,6 +42,7 @@ def nyc_pigeon_organizer(data)
     :lives => ["Central Park"]
   }
   )
+  return newData
 end
 
 # list.inject({}) do |r, h| 
