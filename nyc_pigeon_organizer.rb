@@ -1,7 +1,7 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
   newData = {}
-  data.each_with_index do |key, index|
+  data.each do |key, values|
     #value.values pulls array of the names
     binding.pry
   end
