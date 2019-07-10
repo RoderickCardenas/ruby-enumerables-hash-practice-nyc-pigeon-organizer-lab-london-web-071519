@@ -2,7 +2,11 @@ require 'pry'
 def nyc_pigeon_organizer(data)
   newData = {}
   newArray = []
-  newArray << data[:color].values
+  newArray << data[:color].values.uniq
+  
+  newArray.each do |name|
+    
+  end
   binding.pry
 
   #first collect all the names of the pigeons. 
