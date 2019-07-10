@@ -5,9 +5,9 @@ def nyc_pigeon_organizer(data)
   newArray << data[:color].values.uniq
   
   newArray.each do |name|
-    
+    binding.pry
   end
-  binding.pry
+
 
   #first collect all the names of the pigeons. 
   #make those names the key to your new hash
