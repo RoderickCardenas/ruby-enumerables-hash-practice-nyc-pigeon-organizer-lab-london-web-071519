@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   newArray << data[:color].values
   names = newArray.flatten.uniq
   
-  newArray.each do |name|
+  names.each do |name|
     binding.pry
   end
 
