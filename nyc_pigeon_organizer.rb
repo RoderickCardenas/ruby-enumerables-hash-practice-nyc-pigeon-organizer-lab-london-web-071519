@@ -8,8 +8,9 @@ def nyc_pigeon_organizer(data)
     i += 1
   end
     #value.values pulls array of the names
-    binding.pry
+    # binding.pry
   end
+  return newData
 end
 
 # list.inject({}) do |r, h| 
