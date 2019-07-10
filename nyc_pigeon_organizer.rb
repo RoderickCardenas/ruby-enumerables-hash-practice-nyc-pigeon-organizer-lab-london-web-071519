@@ -9,7 +9,6 @@ def nyc_pigeon_organizer(data)
   end
     #value.values pulls array of the names
     # binding.pry
-  end
   return newData
 end
 
