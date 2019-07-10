@@ -4,6 +4,8 @@ def nyc_pigeon_organizer(data)
   # data.each do |key, value|
   #   #value.values pulls array of the names
   #   binding.pry
+  
+  data.replace
   end
 end
 
