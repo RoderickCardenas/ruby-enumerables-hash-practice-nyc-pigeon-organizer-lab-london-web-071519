@@ -12,6 +12,9 @@ def nyc_pigeon_organizer(data)
         :lives => []
       }
       end
+    names.each do |name|
+      data.each do |key, names|
+        
       newData
   end
 
