@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   #   #value.values pulls array of the names
   #   binding.pry
   
-  data.replace(
+ newData = data.replace(
       "Theo" => {
     :color => ["purple", "grey"],
     :gender => ["male"],
