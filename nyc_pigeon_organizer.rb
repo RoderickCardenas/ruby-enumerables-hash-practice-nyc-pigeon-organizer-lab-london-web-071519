@@ -1,12 +1,10 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
   newData = {}
-  
-  data.each do |key, (k, v)|    
-    
-  end
-    #value.values pulls array of the names
 
+  #first collect all the names of the pigeons. 
+  #make those names the key to your new hash
+  
   return newData
 end
 
