@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
       data.each do |key, list|
         list.each do |info, nameS|
           if nameS.include?(name)
-            newData[name][key]
+            newData[name][key] << info.to_s
           binding.pry
         end
       end
