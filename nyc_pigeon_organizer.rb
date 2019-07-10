@@ -6,6 +6,11 @@ def nyc_pigeon_organizer(data)
   names = newArray.flatten.uniq
   
   names.each do |name|
+    newData[name] = {
+      :color = [],
+      :gender = [],
+      :lives = []
+    }
     binding.pry
   end
 
