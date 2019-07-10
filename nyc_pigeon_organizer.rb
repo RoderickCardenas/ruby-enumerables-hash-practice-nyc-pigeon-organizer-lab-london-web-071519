@@ -5,12 +5,13 @@ def nyc_pigeon_organizer(data)
   newArray << data[:color].values
   names = newArray.flatten.uniq
   
-  names.each do |name|
-    newData[name] = {
-      :color = [],
-      :gender = [],
-      :lives = []
-    }
+    names.each do |name|
+      newData[name] = {
+        :color = [],
+        :gender = [],
+        :lives = []
+      }
+    end
   end
 
 
